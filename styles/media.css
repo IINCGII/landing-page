@@ -1,11 +1,27 @@
 @media screen and (max-width: 768px){
     header{
         flex-direction: column;
+        justify-content: center;
     }
 
     main{
         flex-direction: column;
         align-items: center;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+
+    nav ul li {
+        margin: 10px 0
+    }
+
+    #increva-se-btn{
+        margin-top: 20px;
+        align-self: center;
     }
     a{
         margin-right: 2px;
